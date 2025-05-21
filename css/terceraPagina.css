@@ -7,9 +7,12 @@ body {
 }
 
 header {
-    background-color: #0073e6;
-    color: white;
+    background-color: #7e878f;
+    color: rgb(0, 0, 0);
     padding: 20px;
+    background-image: url(../imagenes/odoo17.jpg);
+    background-position: center;
+    background-size: 500px;
 }
 
 nav ul {
@@ -18,7 +21,7 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 15px;
-    background: #005bb5;
+    background: #7e878f;
     padding: 10px;
 }
 
@@ -34,7 +37,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: #003f80;
+    background: #7e878f;
 }
 
 section {
@@ -44,10 +47,34 @@ section {
     background: white;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.administración{
+    text-align: center;
+}
+.informes{
+    text-align: center;
+}
+.seguridad{
+    text-align: center;
+}
+.instalación{
+    text-align: center;
+}
+img{
+    width: 350px
+}
+.imagen {
+    transition: transform 0.5s ease-in-out;
 }
 
+.imagen:hover {
+    transform: scale(1.3);
+}
+
+
 footer {
-    background: #0073e6;
+    background: #7e878f;
     color: white;
     padding: 10px;
     margin-top: 20px;
